@@ -1,0 +1,26 @@
+
+// ==========================================================================
+//  GPLEX error listing for lex source file <scanner.lex>
+// ==========================================================================
+//  Version:  1.2.2
+//  Machine:  VDI-VL04-018
+//  DateTime: 26/02/2018 2:02:42 PM
+//  UserName: n9539361
+// ==========================================================================
+
+
+%namespace GPLexTutorial
+
+%%
+
+[ \r\n\t] { return '\r\n\t';}
+//-----------------^^-^
+// Error: Illegal character in this context
+// Error: Illegal character in this context
+// Error: Illegal character in this context
+// ----------------------------------------
+
+%%// Error: Parser error <Syntax error, unexpected %%, expecting }> 
+// ---------------------------------------------------------------
+// ==========================================================================
+
